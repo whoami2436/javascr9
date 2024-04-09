@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    background-color: black;
+  }
+  .main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  background-color: white;
+  }
+  .slides {
+    display: flex;
+    transition: transform 1.5s ease;
+
+  }
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border: 20px;
+
+  }
+  .slide img {
+    width: 20%;
+    height: auto;
+  }
